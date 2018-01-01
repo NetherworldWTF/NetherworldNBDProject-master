@@ -106,6 +106,7 @@
     <Content Include="App_Data\NBD_SB_log.ldf">
       <DependentUpon>NBD_SB.mdf</DependentUpon>
     </Content>
+    <Content Include="Design Bid.aspx" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -125,6 +126,13 @@
     <Content Include="Welcome.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Design Bid.aspx.cs">
+      <DependentUpon>Design Bid.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Design Bid.aspx.designer.cs">
+      <DependentUpon>Design Bid.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
